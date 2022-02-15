@@ -29,6 +29,7 @@ pylab.savefig('heart.png')
 if submit!=0:
     if singer == 'Jay' and sport == 'Basketball' :
         st.image('heart.png')
+        st.balloons()
     else:
         st.write("You're wrong, please try again.")
 
